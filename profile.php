@@ -1,6 +1,5 @@
 
 <?php
-  ///test
   //session_start();
    
    $user_check = $_POST['Username'];
