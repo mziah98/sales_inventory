@@ -1,9 +1,6 @@
 
 <?php
-<<<<<<< HEAD
-//test 3
-=======
->>>>>>> 6dbd8a9bd4d843ca660c22c3141b7301a500887f
+  //test
   //session_start();
    
    $user_check = $_POST['Username'];
