@@ -1,7 +1,6 @@
 
-
 <?php
-
+//test 3
   //session_start();
    
    $user_check = $_POST['Username'];
@@ -14,7 +13,7 @@
 	
   $row = mysqli_fetch_array($ses_sql,MYSQLI_ASSOC);
 
-   
+
    //login session
    // $login_session = $row['Username'];
 
