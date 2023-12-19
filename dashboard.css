@@ -1,0 +1,115 @@
+body{
+  //background: #A99797;
+  font-family: "Lato", sans-serif;
+}
+
+#wrapper
+{
+  margin: -1%;
+  width:100%;
+}
+#header
+{
+  background: lightgrey;
+  padding: 50px;
+  color: white;
+   width:100%;
+  text-align: center;
+}
+#header h1 { margin:0;  font-size: 30pt }
+
+#content-container
+{
+  float:left;
+  width:100%;
+  background: #ffffff repeat-y;
+}
+
+#side
+{
+  height: 50%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 200%;
+  padding-right: 20%;
+  padding-left: 0px;
+
+}
+
+#side h3{margin:0; }
+
+#side a, .dropdown-btn {
+  padding: 6px 8px 6px 1px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+#side a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+/* Add an active class to the active dropdown button */
+#active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+#dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+#fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  #side {padding-top: 15px;}
+  #side a {font-size: 18px;}
+}
+
+#navigation li a
+{
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+   height: 100%;
+}
+
+#navigation li a:hover
+{
+  background: #736F6E;
+  color: salmon;
+}
+
+#main
+{
+  float: right;
+  width: 70%;
+  padding-left : 50px;
+  padding-top: 100px;
+  margin-right : 100px;
+  display: inline;
+}
+#main h2 {
+  margin: 0;
+  text-decoration: underline;
+}

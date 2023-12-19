@@ -1,0 +1,22 @@
+{
+  "name": "easyui-186",
+  "version": "1.8.6",
+  "description": "jquery-easyui",
+  "main": "jquery.easyui.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhanSng/jquery-easyui.git"
+  },
+  "keywords": [
+    "easyui"
+  ],
+  "author": "huaer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/muhanSng/jquery-easyui/issues"
+  },
+  "homepage": "https://github.com/muhanSng/jquery-easyui#readme"
+}

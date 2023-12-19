@@ -1,0 +1,203 @@
+
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+     margin-left: 18%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+   // padding: 15%;
+    width:100%;
+    height: 100%;
+    float: center;
+   // margin:10% 5% 10% 5%;
+
+   
+}
+/* Full-width input fields */
+input[type=text], input[type=Name] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+/* Full-width input fields */
+input[type=number], input[type=Quantity] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Full-width input fields */
+input[type=Date], input[type=Date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* Full-width input fields */
+input[type=number], input[type=Price] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.submitbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+}
+/* Set a style for the submit button */
+.resetbtn {
+    background-color: #3366cc;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    opacity: 0.9;
+}
+/*#wrapper
+{
+  //margin: -1%;
+  width:200%;
+
+}
+#header
+{
+  background: #855252;
+ // padding: 50px;
+  color: white;
+   width:100%;
+  text-align: center;
+}
+#header h1 { margin:0;  font-size: 30pt }
+
+
+
+#side
+{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 200px;
+  padding-right: 2px;
+  padding-left: 0px;
+
+}
+
+#side h3{margin:0; }
+
+#side a, .dropdown-btn {
+  padding: 6px 8px 6px 1px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+#side a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+/* Add an active class to the active dropdown button */
+#active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+#dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+#fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  #side {padding-top: 15px;}
+  #side a {font-size: 18px;}
+}
+
+#navigation li a
+{
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+   height: 100%;
+}
+
+#navigation li a:hover
+{
+  background: #736F6E;
+  color: salmon;
+}
+
+#main
+{
+  float: right;
+  width: 70%;
+  padding-left : 50px;
+  padding-top: 100px;
+  margin-right : 100px;
+  display: inline;
+}
+#main h2 {
+  margin: 0;
+  text-decoration: underline;
+}  
+
+/*#container
+{
+  float:center;
+  width:100%;
+  text-align: center;
+  margin-left:20%; 
+ // background: #ffffff repeat-y;
+}
+*/

@@ -1,0 +1,234 @@
+body {
+	font-family: Century Gothic;
+	margin: 1px 1px 1px 1px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 5;
+ font-family: century gothic;
+ border-bottom: 3px solid black;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 25px;
+  margin-right: 35px;
+  top:0;
+  cursor:pointer;
+}
+
+ul.topnav li.icon {display: none;}
+
+ul.topnav li:hover a,ul.topnav li:active a {color: red;}
+
+ul.topnav1 {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin-top: -18px;
+  background-color:#f2f2f2;
+ font-family: century gothic;
+ border-bottom: 6px solid #930;
+ 
+  }
+ul.topnav1 li {float: right;}
+
+ul.topnav1 li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px 3px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 25px;
+  margin-right: 35px;
+  top:0;
+}
+
+ul.topnav1 li:hover {
+	background-color: red;
+	}
+
+ul.topnav1 li.icon {display: none;}
+
+ul.topnav2 {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin-top: -18px;
+  background-color:#f2f2f2;
+ font-family: century gothic;
+ border-bottom: 0px solid red;
+ 
+  }
+ul.topnav2 li {float: right;}
+
+ul.topnav2 li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px 3px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 25px;
+  margin-right: 35px;
+  top:0;
+}
+
+ul.topnav2 li:hover {
+	background-color: red;
+	}
+
+ul.topnav2 li.icon {display: none;}
+
+
+#border {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width:700px;
+}
+
+#border1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width:1100px;
+	
+	
+}
+
+#border2 {
+    border-radius: 5px;
+    background-color:;
+    padding: 20px;
+	width:1200px;
+	
+	
+}
+
+input[type=text1] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-blo
+	ck;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#btn {
+    width: 200px;
+    background-color: #D88B0D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size:18px;
+}
+
+#btn:hover {
+    background-color: #45a049;
+}
+
+h1 {
+	text-align:center;
+}
+
+#quantity {
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text2] {
+    width: 10%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size:18px;
+}
+
+h2 {
+	text-transform:capitalize;
+}
+
+
+input[type=button3] {
+	width: 150px;
+	background-color:#666;
+	padding: 14px 20px;
+	margin: 8px;
+    border-radius: 4px;
+}
+
+input[type=button3]:hover {
+    background-color: #45a049;
+}
+
+#btnprod {
+	width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size:13px;
+}
+
+select {
+	width:240px;
+	height:35px;
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#000;
+    border:medium;
+    outline:none;
+    display: inline-block;
+    appearance:list-menu;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+number2 {
+	width:30px;
+	height:50px;
+}
+
+.mySlides {display:none;}
